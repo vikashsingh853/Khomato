@@ -29,7 +29,9 @@ function App() {
       
 
     </CartProvider>
-    
+    <div>
+     <h3 style={{color: "red" , textAlign : 'center'}}>© Developed by Vikash Kumar Singh</h3>
+    </div>
     
     </>
 
