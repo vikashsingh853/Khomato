@@ -24,15 +24,7 @@ function App() {
         <Meals />
       </main>
     </CartProvider>
-<<<<<<< HEAD
-=======
-    <div>
-     <h3 style={{color: "red" , textAlign : 'center'}}>© Developed by Vikash Kumar Singh</h3>
-    </div>
-    
-    </>
 
->>>>>>> dd70cb9c2b6e26b4899861502ad4accea36bdd30
   );
 }
 
