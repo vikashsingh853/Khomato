@@ -82,10 +82,10 @@ const Checkout = (props) => {
         {!formInputsValidity.street && <p>Please enter a valid street!</p>}
       </div>
       <div className={postalCodeControlClasses}>
-        <label htmlFor='postal'>Postal Code</label>
+        <label htmlFor='postal'>Pin Code</label>
         <input type='text' id='postal' ref={postalCodeInputRef} />
         {!formInputsValidity.postalCode && (
-          <p>Please enter a valid postal code (5 characters long)!</p>
+          <p>Please enter a valid pin code (6 characters long)!</p>
         )}
       </div>
       <div className={cityControlClasses}>
